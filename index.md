@@ -102,12 +102,18 @@ makes
 
 
 ### Links
-\[DisplayText](URL)  
+```
+[DisplayText](URL)
+```
+
+e.g.  
 
 ```
 [Google](https://google.com)
 ```
+
 makes  
+
 [Google](https://google.com)
 
 Note: target=\_blank not available in GFM, use &lt;a&gt; tag instead.  
@@ -115,11 +121,18 @@ Note: target=\_blank not available in GFM, use &lt;a&gt; tag instead.
 
 
 ### Images
-\![AltText](src)  
+```
+\![AltText](src)
+```
+
+e.g.  
+
 ```
 ![BackgroundImage](https://i.ytimg.com/vi/BgIJ45HKDpw/maxresdefault.jpg)
 ```
+
 makes  
+
 ![BackgroundImage](https://i.ytimg.com/vi/BgIJ45HKDpw/maxresdefault.jpg)
 
 
@@ -151,6 +164,9 @@ makes
 ```javascript
 console.log("Hello World");
 ```
+
+NOTE: language name can be omitted.  
+
 
 
 #### Supported Languages  
