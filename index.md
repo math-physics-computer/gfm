@@ -25,18 +25,34 @@ file extension **.md** is often used for markdown files.
 
 ### Italic
 Wrap text with \* or \_  
-\*foo\* and \_foo\_  
+
+```
+*foo*
+_foo_  
+```
+
 make  
-*foo* and _foo_  
+
+*foo*  
+_foo_  
+  
 Note: no spaces
 
 
 
 ### Bold
 Wrap text with \*\*  or \_\_  
-\*\*foo\*\*  and \_\_bar\_\_
+
+```
+**foo**
+__bar__
+```
+
 make  
-**foo**  and  __bar__  
+
+**foo**  
+__bar__  
+  
 Note: no spaces
 
 
