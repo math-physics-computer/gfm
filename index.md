@@ -28,13 +28,13 @@ Wrap text with \* or \_
 
 ```
 *foo*
-_foo_  
+_bar_
 ```
 
-make  
+makes  
 
 *foo*  
-_foo_  
+_bar_  
   
 Note: no spaces
 
@@ -48,7 +48,7 @@ Wrap text with \*\*  or \_\_
 __bar__
 ```
 
-make  
+makes  
 
 **foo**  
 __bar__  
@@ -115,6 +115,22 @@ makes
 3. baas
 
 
+### Task Lists
+To create a task list, preface list items with a regular space character followed by [ ]. To mark a task as complete, use [x].
+
+```
+- [x] foo
+- [ ] bar
+- [ ] baz
+```
+
+makes  
+
+- [x] foo
+- [ ] bar
+- [ ] baz
+
+
 
 
 ### Links
@@ -133,6 +149,7 @@ makes
 [Google](https://google.com)
 
 Note: target=\_blank not available in GFM, use &lt;a&gt; tag instead.  
+
 
 
 
@@ -164,6 +181,7 @@ Wrap with ticks \`
 makes  
 
 `foo()`  
+
 
 
 ### Syntax-highlighted Code Block
