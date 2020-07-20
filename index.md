@@ -263,5 +263,5 @@ NOTE: language name can be omitted.
 ### For More Details
 Visit Links:  
 [GitHub Basic Writing and Formatting Syntax](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)  
-[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)  
 [GitHub Pages Documentation](https://help.github.com/categories/github-pages-basics/)  
